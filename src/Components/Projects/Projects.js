@@ -29,6 +29,26 @@ const PERCENTAGES_CALCULATOR =
 const MEDIA_PLAYER = 'https://santinaranjo.github.io/platzi-media-player/'
 
 export const Projects = () => {
+    const projectList = [
+        {
+            name: 'Testeo2',
+            imgSrc: geometryBot,
+            prjUrl: GEOMETRY_BOT,
+            tech: ['TEST', 'JS'],
+        },
+        {
+            name: 'Batatabit Mobile',
+            imgSrc: batatabitPreview,
+            prjUrl: BATATABIT_MOBILE,
+            tech: ['HTML', 'CSS'],
+        },
+        {
+            name: 'GoogleClone',
+            imgSrc: googlePreview,
+            prjUrl: GOOGLE_CLONE,
+            tech: ['HTML', 'CSS'],
+        },
+    ]
     return (
         <React.Fragment>
             <MyProjects>
@@ -187,12 +207,16 @@ export const Projects = () => {
                             </a>
                         </div>
                     </section> */}
-                    <ProjectCard
-                        name="test"
-                        imgSrc={geometryBot}
-                        prjUrl={GEOMETRY_BOT}
-                        tech={['TEST', 'JS']}
-                    />
+                    {projectList.map((data) => {
+                        return (
+                            <ProjectCard
+                                name={data.name}
+                                imgSrc={data.imgSrc}
+                                prjUrl={data.prjUrl}
+                                tech={data.tech}
+                            />
+                        )
+                    })}
                 </section>
             </MyProjects>
         </React.Fragment>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const ProjectCard = ({ name, imgSrc, prjUrl, tech }) => {
+export const ProjectCard = ({ name, imgSrc, prjUrl, tech, keyNumber }) => {
     return (
         <React.Fragment>
             <section className="project-card">
@@ -8,7 +8,11 @@ export const ProjectCard = ({ name, imgSrc, prjUrl, tech }) => {
                     <span>{name}</span>
                     <div className="project-tech">
                         {tech.map((techText) => {
-                            return <span>{techText}</span>
+                            return (
+                                <span key={`tech-${keyNumber}-${techText}`}>
+                                    {techText}
+                                </span>
+                            )
                         })}
                     </div>
                 </div>

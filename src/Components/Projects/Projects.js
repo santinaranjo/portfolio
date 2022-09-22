@@ -11,6 +11,10 @@ import platziGamesSass from '../../Assets/platzi-games-sass.png'
 import geometryBot from '../../Assets/geometry-bot-preview.png'
 import percentagesCalculator from '../../Assets/percentages-calculator-preview.png'
 import mediaPlayer from '../../Assets/media-player-preview.png'
+import simpleWeatherApp from '../../Assets/simple-weather-app.png'
+import todoList from '../../Assets/todo-list.png'
+import socialMediaApp from '../../Assets/social-media-app.png'
+import pokeCards from '../../Assets/poke-cards.png'
 
 const GOOGLE_CLONE = 'https://santinaranjo.github.io/Google-Clone/'
 const BATATABIT_MOBILE =
@@ -27,186 +31,112 @@ const GEOMETRY_BOT =
 const PERCENTAGES_CALCULATOR =
     'https://santinaranjo.github.io/percentages-calculator/html/index.html'
 const MEDIA_PLAYER = 'https://santinaranjo.github.io/platzi-media-player/'
+const SIMPLE_WEATHER_APP =
+    'https://santinaranjo.github.io/simple-weather-app/index.html'
+const TODO_LIST = 'https://santinaranjo.github.io/todo-list-react/'
+const SOCIAL_MEDIA_APP = 'https://petgram-react-fawn.vercel.app/'
+const POKE_CARDS =
+    'https://santinaranjo.github.io/poke-cards/#/oneplayer-notime'
 
 export const Projects = () => {
     const projectList = [
         {
-            name: 'Testeo2',
+            name: 'PokeCards',
+            imgSrc: pokeCards,
+            prjUrl: POKE_CARDS,
+            tech: ['TS', 'REACT', 'RECOIL'],
+            id: 13,
+        },
+        {
+            name: 'Social Media',
+            imgSrc: socialMediaApp,
+            prjUrl: SOCIAL_MEDIA_APP,
+            tech: ['REACT', 'VERCEL'],
+            id: 12,
+        },
+        {
+            name: 'Todo List',
+            imgSrc: todoList,
+            prjUrl: TODO_LIST,
+            tech: ['REACT'],
+            id: 11,
+        },
+        {
+            name: 'Weather App',
+            imgSrc: simpleWeatherApp,
+            prjUrl: SIMPLE_WEATHER_APP,
+            tech: ['API', 'JS'],
+            id: 10,
+        },
+        {
+            name: 'Media Player',
+            imgSrc: mediaPlayer,
+            prjUrl: MEDIA_PLAYER,
+            tech: ['JS'],
+            id: 9,
+        },
+        {
+            name: '% Calculator',
+            imgSrc: percentagesCalculator,
+            prjUrl: PERCENTAGES_CALCULATOR,
+            tech: ['JS', 'PUG', 'SASS'],
+            id: 8,
+        },
+        {
+            name: 'Geometry Bot',
             imgSrc: geometryBot,
             prjUrl: GEOMETRY_BOT,
-            tech: ['TEST', 'JS'],
+            tech: ['JS', 'PUG', 'SASS'],
+            id: 7,
+        },
+        {
+            name: 'Platzi Games Sass',
+            imgSrc: platziGamesSass,
+            prjUrl: PLATZI_GAMES_SASS,
+            tech: ['HTML', 'SASS'],
+            id: 6,
+        },
+        {
+            name: 'Platzi Games Less',
+            imgSrc: platziGamesLess,
+            prjUrl: PLATZI_GAMES_LESS,
+            tech: ['HTML', 'LESS'],
+            id: 5,
+        },
+        {
+            name: 'Platzi Games Pug',
+            imgSrc: platziGamesPug,
+            prjUrl: PLATZI_GAMES_PUG,
+            tech: ['HTML', 'PUG'],
+            id: 4,
+        },
+        {
+            name: 'Food Grid',
+            imgSrc: foodGridPreview,
+            prjUrl: FOOD_GRID,
+            tech: ['HTML', 'CSS'],
+            id: 3,
         },
         {
             name: 'Batatabit Mobile',
             imgSrc: batatabitPreview,
             prjUrl: BATATABIT_MOBILE,
             tech: ['HTML', 'CSS'],
+            id: 2,
         },
         {
             name: 'GoogleClone',
             imgSrc: googlePreview,
             prjUrl: GOOGLE_CLONE,
             tech: ['HTML', 'CSS'],
+            id: 1,
         },
     ]
+
     return (
         <React.Fragment>
             <MyProjects>
                 <section className="project-container">
-                    {/* <section className="project-card">
-                        <div className="project-title">
-                            <span>Media Player</span>
-                            <div className="project-tech">
-                                <span>JS</span>
-                            </div>
-                        </div>
-                        <figure>
-                            <img src={mediaPlayer} />
-                        </figure>
-                        <div className="project-link">
-                            <a href={MEDIA_PLAYER} target="_blank">
-                                Ver proyecto
-                            </a>
-                        </div>
-                    </section>
-                    <section className="project-card">
-                        <div className="project-title">
-                            <span>% Calculator</span>
-                            <div className="project-tech">
-                                <span>JS</span>
-                                <span>PUG</span>
-                                <span>SASS</span>
-                            </div>
-                        </div>
-                        <figure>
-                            <img src={percentagesCalculator} />
-                        </figure>
-                        <div className="project-link">
-                            <a href={PERCENTAGES_CALCULATOR} target="_blank">
-                                Ver proyecto
-                            </a>
-                        </div>
-                    </section>
-                    <section className="project-card">
-                        <div className="project-title">
-                            <span>Geometry Bot</span>
-                            <div className="project-tech">
-                                <span>JS</span>
-                                <span>PUG</span>
-                                <span>SASS</span>
-                            </div>
-                        </div>
-                        <figure>
-                            <img src={geometryBot} />
-                        </figure>
-                        <div className="project-link">
-                            <a href={GEOMETRY_BOT} target="_blank">
-                                Ver proyecto
-                            </a>
-                        </div>
-                    </section>
-                    <section className="project-card">
-                        <div className="project-title">
-                            <span>Platzi Games Sass</span>
-                            <div className="project-tech">
-                                <span>HTML</span>
-                                <span>SASS</span>
-                            </div>
-                        </div>
-                        <figure>
-                            <img src={platziGamesSass} />
-                        </figure>
-                        <div className="project-link">
-                            <a href={PLATZI_GAMES_SASS} target="_blank">
-                                Ver proyecto
-                            </a>
-                        </div>
-                    </section>
-                    <section className="project-card">
-                        <div className="project-title">
-                            <span>Platzi Games Less</span>
-                            <div className="project-tech">
-                                <span>HTML</span>
-                                <span>LESS</span>
-                            </div>
-                        </div>
-                        <figure>
-                            <img src={platziGamesLess} />
-                        </figure>
-                        <div className="project-link">
-                            <a href={PLATZI_GAMES_LESS} target="_blank">
-                                Ver proyecto
-                            </a>
-                        </div>
-                    </section>
-                    <section className="project-card">
-                        <div className="project-title">
-                            <span>Platzi Games Pug</span>
-                            <div className="project-tech">
-                                <span>HTML</span>
-                                <span>PUG</span>
-                            </div>
-                        </div>
-                        <figure>
-                            <img src={platziGamesPug} />
-                        </figure>
-                        <div className="project-link">
-                            <a href={PLATZI_GAMES_PUG} target="_blank">
-                                Ver proyecto
-                            </a>
-                        </div>
-                    </section>
-                    <section className="project-card">
-                        <div className="project-title">
-                            <span>Food Grid</span>
-                            <div className="project-tech">
-                                <span>HTML</span>
-                                <span>CSS</span>
-                            </div>
-                        </div>
-                        <figure>
-                            <img src={foodGridPreview} />
-                        </figure>
-                        <div className="project-link">
-                            <a href={FOOD_GRID} target="_blank">
-                                Ver proyecto
-                            </a>
-                        </div>
-                    </section>
-                    <section className="project-card">
-                        <div className="project-title">
-                            <span>Batatabit Mobile</span>
-                            <div className="project-tech">
-                                <span>HTML</span>
-                                <span>CSS</span>
-                            </div>
-                        </div>
-                        <figure>
-                            <img src={batatabitPreview} />
-                        </figure>
-                        <div className="project-link">
-                            <a href={BATATABIT_MOBILE} target="_blank">
-                                Ver proyecto
-                            </a>
-                        </div>
-                    </section>
-                    <section className="project-card">
-                        <div className="project-title">
-                            <span>Google Clone</span>
-                            <div className="project-tech">
-                                <span>HTML</span>
-                                <span>CSS</span>
-                            </div>
-                        </div>
-                        <figure>
-                            <img src={googlePreview} />
-                        </figure>
-                        <div className="project-link">
-                            <a href={GOOGLE_CLONE} target="_blank">
-                                Ver proyecto
-                            </a>
-                        </div>
-                    </section> */}
                     {projectList.map((data) => {
                         return (
                             <ProjectCard
@@ -214,6 +144,8 @@ export const Projects = () => {
                                 imgSrc={data.imgSrc}
                                 prjUrl={data.prjUrl}
                                 tech={data.tech}
+                                key={data.id}
+                                keyNumber={data.id}
                             />
                         )
                     })}

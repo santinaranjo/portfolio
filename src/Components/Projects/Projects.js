@@ -147,7 +147,6 @@ export const Projects = ({ projectSelection = [] }) => {
         })
     }
     result()
-    console.log(selectionArray)
 
     return (
         <React.Fragment>

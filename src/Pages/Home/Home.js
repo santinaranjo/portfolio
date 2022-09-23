@@ -28,7 +28,7 @@ export const Home = () => {
             <MisTrabajos>
                 <p>Mis trabajos.</p>
             </MisTrabajos>
-            <Projects projectSelection={[1, 2, 4]} />
+            <Projects projectSelection={[2, 7, 8, 10, 11, 12, 13]} />
         </React.Fragment>
     )
 }

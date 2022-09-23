@@ -11,7 +11,16 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 // Dev
-                <Route path="/projects" element={<Projects />} />
+                <Route
+                    path="/projects"
+                    element={
+                        <Projects
+                            projectSelection={[
+                                1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,
+                            ]}
+                        />
+                    }
+                />
             </Routes>
         </BrowserRouter>
     )

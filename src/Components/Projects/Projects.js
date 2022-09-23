@@ -38,7 +38,7 @@ const SOCIAL_MEDIA_APP = 'https://petgram-react-fawn.vercel.app/'
 const POKE_CARDS =
     'https://santinaranjo.github.io/poke-cards/#/oneplayer-notime'
 
-export const Projects = ({ projectSelection = [] }) => {
+export const Projects = ({ projectSelection }) => {
     const projectList = [
         {
             name: 'PokeCards',
@@ -136,13 +136,9 @@ export const Projects = ({ projectSelection = [] }) => {
     let selectionArray = []
     const result = () => {
         projectList.forEach((element) => {
-            if (projectSelection === []) {
+            const found = projectSelection.find((el) => el === element.id)
+            if (found) {
                 selectionArray.push(element)
-            } else {
-                const found = projectSelection.find((el) => el === element.id)
-                if (found) {
-                    selectionArray.push(element)
-                }
             }
         })
     }

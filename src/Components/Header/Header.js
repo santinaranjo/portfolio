@@ -16,11 +16,11 @@ export const Header = () => {
         <React.Fragment>
             <MainHeader>
                 <figure onClick={handleMenuToggle}>
-                    <img src={hamburguerMenu} />
+                    <img src={hamburguerMenu} alt="menu" />
                 </figure>
                 <figure>
                     <Link to="/">
-                        <img src={logoWhite} />
+                        <img src={logoWhite} alt="logo" />
                     </Link>
                 </figure>
             </MainHeader>

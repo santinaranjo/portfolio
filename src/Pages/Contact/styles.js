@@ -15,11 +15,15 @@ export const Presentation = styled.section`
             border-bottom: 5px solid rgb(240, 240, 240);
         }
         .second-line {
-            border-bottom: 5px solid rgb(200, 13, 80);
+            border-bottom: 5px solid rgb(14, 118, 168);
         }
-        .third-line {
-            border-bottom: 5px solid rgb(116, 10, 48);
-        }
+    }
+    & p a {
+        text-decoration: none;
+        color: white;
+        background-color: rgb(14, 118, 168);
+        padding: 5px;
+        border-radius: 20px;
     }
 `
 
@@ -59,25 +63,4 @@ export const Main = styled.main`
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-`
-
-export const Todos = styled.section`
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    & p {
-        justify-self: center;
-        background-color: rgb(50, 100, 200);
-        padding: 10px;
-        border-radius: 20px;
-        width: fit-content;
-    }
-    & a {
-        text-decoration: none;
-        font-size: 23px;
-        font-weight: bold;
-        color: white;
-    }
 `

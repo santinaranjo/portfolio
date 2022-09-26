@@ -9,9 +9,15 @@ export const Menu = () => {
                 <li>
                     <Link to="/">Inicio</Link>
                 </li>
-                <li>Portfolio</li>
-                <li>Contacto</li>
-                <li>Sobre mí</li>
+                <li>
+                    <Link to="/portfolio">Portfolio</Link>
+                </li>
+                <li>
+                    <Link to="/contacto">Contacto</Link>
+                </li>
+                <li>
+                    <Link to="/about">Sobre mí</Link>
+                </li>
             </ul>
         </MenuCard>
     )

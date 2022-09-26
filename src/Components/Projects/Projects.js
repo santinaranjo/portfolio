@@ -1,5 +1,5 @@
 import React from 'react'
-import { MyProjects } from './stiles'
+import { MyProjects } from './styles'
 import { ProjectCard } from '../ProjectCard/ProjectCard'
 
 import googlePreview from '../../Assets/google-clone-preview.png'

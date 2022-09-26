@@ -10,7 +10,7 @@ export const Presentation = styled.section`
     margin-top: 30px;
     & p:first-child {
         line-height: 1.5;
-
+        margin: 10px;
         .first-line {
             border-bottom: 5px solid rgb(240, 240, 240);
         }
@@ -59,25 +59,4 @@ export const Main = styled.main`
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-`
-
-export const Todos = styled.section`
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    & p {
-        justify-self: center;
-        background-color: rgb(50, 100, 200);
-        padding: 10px;
-        border-radius: 20px;
-        width: fit-content;
-    }
-    & a {
-        text-decoration: none;
-        font-size: 23px;
-        font-weight: bold;
-        color: white;
-    }
 `

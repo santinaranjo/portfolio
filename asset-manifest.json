@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4e6c107d.css",
-    "main.js": "/portfolio/static/js/main.cd62427a.js",
-    "static/media/platzi-games-less.png": "/portfolio/static/media/platzi-games-less.fc75fec5f6ed354cb9da.png",
-    "static/media/food-grid-preview.png": "/portfolio/static/media/food-grid-preview.4709d13a7a56c3b489cf.png",
-    "static/media/media-player-preview.png": "/portfolio/static/media/media-player-preview.26c796dd0c157e9a3c91.png",
-    "static/media/social-media-app.png": "/portfolio/static/media/social-media-app.a6328998732ab5dbe9ba.png",
-    "static/media/platzi-games-sass.png": "/portfolio/static/media/platzi-games-sass.3bc4fbb9c8a293be6742.png",
-    "static/media/foto-personal.png": "/portfolio/static/media/foto-personal.cb1ea227ba8960fe085a.png",
-    "static/media/poke-cards.png": "/portfolio/static/media/poke-cards.94e75410f7bd5ae8fbca.png",
-    "static/media/platzi-games-pug-preview.png": "/portfolio/static/media/platzi-games-pug-preview.77d10b97662ba8a9ad17.png",
-    "static/media/batatabit-mobile-preview.png": "/portfolio/static/media/batatabit-mobile-preview.3a78889654f044af6987.png",
-    "static/media/google-clone-preview.png": "/portfolio/static/media/google-clone-preview.23bb1cc9d45eb6244f41.png",
-    "static/media/linkedIn.png": "/portfolio/static/media/linkedIn.c1f81aed62425fb5a17a.png",
-    "static/media/simple-weather-app.png": "/portfolio/static/media/simple-weather-app.417505f6eb1e9c9b07ee.png",
-    "static/media/geometry-bot-preview.png": "/portfolio/static/media/geometry-bot-preview.f5e701d80879e897002e.png",
-    "static/media/github.png": "/portfolio/static/media/github.11c41bf5771bd35523dc.png",
-    "static/media/percentages-calculator-preview.png": "/portfolio/static/media/percentages-calculator-preview.17ab161ac3bdf91bad91.png",
-    "static/media/todo-list.png": "/portfolio/static/media/todo-list.28819d513018cc01ccdb.png",
-    "index.html": "/portfolio/index.html",
-    "main.4e6c107d.css.map": "/portfolio/static/css/main.4e6c107d.css.map",
-    "main.cd62427a.js.map": "/portfolio/static/js/main.cd62427a.js.map"
+    "main.css": "/static/css/main.4e6c107d.css",
+    "main.js": "/static/js/main.baf0de84.js",
+    "static/media/platzi-games-less.png": "/static/media/platzi-games-less.fc75fec5f6ed354cb9da.png",
+    "static/media/food-grid-preview.png": "/static/media/food-grid-preview.4709d13a7a56c3b489cf.png",
+    "static/media/media-player-preview.png": "/static/media/media-player-preview.26c796dd0c157e9a3c91.png",
+    "static/media/social-media-app.png": "/static/media/social-media-app.a6328998732ab5dbe9ba.png",
+    "static/media/platzi-games-sass.png": "/static/media/platzi-games-sass.3bc4fbb9c8a293be6742.png",
+    "static/media/foto-personal.png": "/static/media/foto-personal.cb1ea227ba8960fe085a.png",
+    "static/media/poke-cards.png": "/static/media/poke-cards.94e75410f7bd5ae8fbca.png",
+    "static/media/platzi-games-pug-preview.png": "/static/media/platzi-games-pug-preview.77d10b97662ba8a9ad17.png",
+    "static/media/batatabit-mobile-preview.png": "/static/media/batatabit-mobile-preview.3a78889654f044af6987.png",
+    "static/media/google-clone-preview.png": "/static/media/google-clone-preview.23bb1cc9d45eb6244f41.png",
+    "static/media/linkedIn.png": "/static/media/linkedIn.c1f81aed62425fb5a17a.png",
+    "static/media/simple-weather-app.png": "/static/media/simple-weather-app.417505f6eb1e9c9b07ee.png",
+    "static/media/geometry-bot-preview.png": "/static/media/geometry-bot-preview.f5e701d80879e897002e.png",
+    "static/media/github.png": "/static/media/github.11c41bf5771bd35523dc.png",
+    "static/media/percentages-calculator-preview.png": "/static/media/percentages-calculator-preview.17ab161ac3bdf91bad91.png",
+    "static/media/todo-list.png": "/static/media/todo-list.28819d513018cc01ccdb.png",
+    "index.html": "/index.html",
+    "main.4e6c107d.css.map": "/static/css/main.4e6c107d.css.map",
+    "main.baf0de84.js.map": "/static/js/main.baf0de84.js.map"
   },
   "entrypoints": [
     "static/css/main.4e6c107d.css",
-    "static/js/main.cd62427a.js"
+    "static/js/main.baf0de84.js"
   ]
 }

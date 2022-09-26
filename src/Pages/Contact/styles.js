@@ -10,7 +10,8 @@ export const Presentation = styled.section`
     margin-top: 30px;
     & p:first-child {
         line-height: 1.5;
-
+        margin: 10px;
+        width: 300px;
         .first-line {
             border-bottom: 5px solid rgb(240, 240, 240);
         }

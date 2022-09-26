@@ -11,6 +11,7 @@ export const Presentation = styled.section`
     & p:first-child {
         line-height: 1.5;
         margin: 10px;
+        padding: 10px;
         .first-line {
             border-bottom: 5px solid rgb(240, 240, 240);
         }

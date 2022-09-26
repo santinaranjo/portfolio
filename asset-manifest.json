@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4e6c107d.css",
-    "main.js": "/static/js/main.baf0de84.js",
+    "main.js": "/static/js/main.c8b48b16.js",
     "static/media/platzi-games-less.png": "/static/media/platzi-games-less.fc75fec5f6ed354cb9da.png",
     "static/media/food-grid-preview.png": "/static/media/food-grid-preview.4709d13a7a56c3b489cf.png",
     "static/media/media-player-preview.png": "/static/media/media-player-preview.26c796dd0c157e9a3c91.png",
@@ -20,10 +20,10 @@
     "static/media/todo-list.png": "/static/media/todo-list.28819d513018cc01ccdb.png",
     "index.html": "/index.html",
     "main.4e6c107d.css.map": "/static/css/main.4e6c107d.css.map",
-    "main.baf0de84.js.map": "/static/js/main.baf0de84.js.map"
+    "main.c8b48b16.js.map": "/static/js/main.c8b48b16.js.map"
   },
   "entrypoints": [
     "static/css/main.4e6c107d.css",
-    "static/js/main.baf0de84.js"
+    "static/js/main.c8b48b16.js"
   ]
 }
